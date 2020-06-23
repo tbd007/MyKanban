@@ -6,6 +6,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Productivity App Project with 
 * Login
 * Dashboard : Local Date, Time, Weather from weatherbit.io API
+* Water Tracker
+* Worktime Tracker
 * Kanban Board with 3 Task Boards
 * Today Appointment Board
 * Todo Board
