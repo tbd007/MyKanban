@@ -1,8 +1,17 @@
+### MyKANBAN Productivity App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Description
+Productivity App Project with 
+* Login
+* Dashboard : Local Date, Time, Weather from weatherbit.io API
+* Kanban Board with 3 Task Boards
+* Today Appointment Board
+* Todo Board
+* ToNote Board for Notes and Journaling
 
-In the project directory, you can run:
+Created with Create React App
 
 ### `npm start`
 
@@ -43,26 +52,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Layout
 
-### Making a Progressive Web App
+![screencapture-localhost-3003-2020-06-23-12_18_30](https://user-images.githubusercontent.com/58664635/85393186-dee65380-b54c-11ea-8b02-9d1535035a72.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
