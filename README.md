@@ -13,6 +13,8 @@ Productivity App Project with
 * Todo Board
 * ToNote Board for Notes and Journaling
 
+Style: Neumorphism
+
 Created with Create React App
 
 ### `npm start`
