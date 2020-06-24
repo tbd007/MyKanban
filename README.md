@@ -8,7 +8,7 @@ Productivity App Project with
 * Dashboard : Local Date, Time, Weather from weatherbit.io API
 * Water Tracker
 * Worktime Tracker
-* Kanban Board with 3 Task Boards
+* Kanban Board with 3 Task Boards using Local Storage to save tasks
 * Today Appointment Board
 * Todo Board
 * ToNote Board for Notes and Journaling
