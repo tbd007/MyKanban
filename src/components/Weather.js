@@ -46,7 +46,7 @@ class Weather extends Component {
       
         return (
             <div id="current_weather">
-                <p> {this.state.temperature} °C <br></br> {this.state.desc} <img style={{width:30, height:30, marginTop:10}} src={this.state.icon}/></p>
+                <p> {this.state.temperature} °C <br></br> {this.state.desc} <img style={{width:30, height:30, marginTop:10}} src={this.state.icon} alt="weathericon"/></p>
                 
             </div>
         )
