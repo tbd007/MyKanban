@@ -30,7 +30,7 @@ function MyApp() {
       <ToNote />
       </div>
       <div className="footer">
-        <div id="footer">Powered by <img src="logo192.png" style={{width:30, height:30}}/> <p>© TBD 2020</p></div>
+        <div id="footer">Powered by <img src="logo192.png" alt="react" style={{width:30, height:30}}/> <p>© TBD 2020</p></div>
       </div>
     </div>
     
