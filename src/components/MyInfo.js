@@ -4,8 +4,7 @@ import Drop from './Drop';
 import Weather from "./Weather";
 
 function MyInfo() {
-    const firstName="Tanja"
-    const lastName="Babic-Debrosse"
+    
     const date = new Date()
     const hours = date.getHours()
     const weekday = date.getDay()
@@ -27,17 +26,17 @@ function MyInfo() {
    
    
 
-    if (weekday == 1) {
+    if (weekday === 1) {
         day = 'Monday'
-    } else if (weekday == 2) {
+    } else if (weekday === 2) {
         day = 'Tuesday'
-    } else if (weekday == 3) {
+    } else if (weekday === 3) {
         day = 'Wednesday'
-    } else if (weekday == 4) {
+    } else if (weekday === 4) {
         day = 'Thursday'
-    } else if (weekday == 5) {
+    } else if (weekday === 5) {
         day = 'Friday'
-    } else if (weekday == 6) {
+    } else if (weekday === 6) {
         day = 'Saturday'
     } else {
         day = 'Sunday'
