@@ -46,7 +46,7 @@ class App extends React.Component {
         return (
             <div id="login-wrapper">
                  <div className="profilepic">
-            <img id="pic" src="https://www.xing.com/assets/frontend_minified/img/users/nobody_f.256x256.jpg"/>  
+            <img id="pic" src="https://www.xing.com/assets/frontend_minified/img/users/nobody_f.256x256.jpg" alt="avatar"/>  
             <br />          
             
             <button id="log-btn" onClick={this.handleClick}>{buttonText}</button>
