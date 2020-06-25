@@ -47,6 +47,7 @@ p{
   flex-direction:row;
   justify-content:space-evenly;
   width:90%;
+  margin-bottom:20px;
 }
 
 #today, #tonote{
