@@ -7,10 +7,13 @@ import Water from './Water';
 import LogIn from './LogIn';
 import Todos from './Todos';
 import Board from './Board';
+import { TouchBackend } from 'react-dnd-touch-backend'
+
 
 
 
 function MyApp() {
+<DndProvider backend={TouchBackend} options={opts}>
   
   return (
     <div className="App">
@@ -35,6 +38,8 @@ function MyApp() {
     </div>
     
   );
+
+  </DndProvider>
 }
 
 export default MyApp;
