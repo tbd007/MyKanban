@@ -631,4 +631,15 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
     justify-content:center;
   }
 
+  .todolist {
+    padding-left:0px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    width:80%;
+    margin:10px auto;
+  }
+
+
+
 }
