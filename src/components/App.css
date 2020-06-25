@@ -654,7 +654,7 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
     background: rgb(49, 49, 49); 
   }
 
-  #today, #tonote,#tododiv{
+  #today, #tonote,.tododiv{
     margin-bottom:5px;
   }
 }
