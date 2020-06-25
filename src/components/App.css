@@ -640,6 +640,18 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
     margin:10px auto;
   }
 
-
+  ::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #2b2a2a; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(49, 49, 49); 
+  }
 
 }
