@@ -21,22 +21,26 @@ function MyApp() {
       <LogIn />  
       <MyInfo />
       <Water />
-      
       </div>
-      <div> <WorkTracker /></div>
+
+      <div id="trackerboard"> 
+      <WorkTracker /> 
+      </div>
+
       <div id="board-wrapper">
-       
         <Board />
       </div>
+
       <div className="layers">
-        
       <Today />
       <Todos />
       <ToNote />
       </div>
+
       <div className="footer">
         <div id="footer">Powered by <img src="logo192.png" alt="react" style={{width:30, height:30}}/> <p>© TBD 2020</p></div>
       </div>
+      
     </div>
     
   );
