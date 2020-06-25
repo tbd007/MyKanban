@@ -17,7 +17,7 @@ class Today extends React.Component {
              
             <div className="holder">
             <input type="text" id="appt" name="appt" placeholder="Time"/>
-                <input id="add" type='text' placeholder="Appointment"/>
+                <input id="add" type='text' placeholder="Appt"/>
                 <button onClick = {this.addAppointment}>Add</button>
             </div>
             <div id="schedule"></div>

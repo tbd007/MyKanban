@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Kanban.css';
 import List from './List2';
+import Drop from './Drop';
 
 export default class Board extends Component {
   constructor(props) {
@@ -125,11 +126,16 @@ render() {
   ));
    
   return (
+    <div>
+    <div id="dropit">
+        <Drop />
+        </div>
     <div className="board">
       <ul className="lists">
         {lists}
       </ul>
     </div>
+   </div>
   );
   }
 }

@@ -7,13 +7,13 @@ import Water from './Water';
 import LogIn from './LogIn';
 import Todos from './Todos';
 import Board from './Board';
-import { TouchBackend } from 'react-dnd-touch-backend'
+import WorkTracker from './Work';
+
 
 
 
 
 function MyApp() {
-<DndProvider backend={TouchBackend} options={opts}>
   
   return (
     <div className="App">
@@ -23,7 +23,9 @@ function MyApp() {
       <Water />
       
       </div>
+      <div> <WorkTracker /></div>
       <div id="board-wrapper">
+       
         <Board />
       </div>
       <div className="layers">
@@ -39,7 +41,7 @@ function MyApp() {
     
   );
 
-  </DndProvider>
+ 
 }
 
 export default MyApp;

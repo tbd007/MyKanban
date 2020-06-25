@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css';
-import Drop from './Drop';
 import Weather from "./Weather";
 
 function MyInfo() {
@@ -73,9 +72,7 @@ function MyInfo() {
             
             
         </div>
-        <div id="dropit">
-        <Drop />
-        </div>
+        
         
         </div>
 
