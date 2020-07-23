@@ -8,7 +8,7 @@ import LogIn from './LogIn';
 import Todos from './Todos';
 import Board from './Board';
 import WorkTracker from './Work';
-
+import Week from './Week';
 
 
 
@@ -27,6 +27,11 @@ function MyApp() {
       <WorkTracker /> 
       </div>
 
+      <div id="myweek">
+        <h2>MY WEEK</h2>
+        <Week />
+      </div>
+
       <div id="board-wrapper">
         <Board />
       </div>
@@ -36,6 +41,7 @@ function MyApp() {
       <Todos />
       <ToNote />
       </div>
+
 
       <div className="footer">
         <div id="footer">Powered by <img src="logo192.png" alt="react" style={{width:30, height:30}}/> <p>© TBD 2020</p></div>

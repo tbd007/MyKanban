@@ -461,7 +461,54 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
   padding:10px 0px 0px 0px;
   box-shadow:2px -2px 5px rgba(20, 20, 20, 0.473),
    2px 2px 5px rgba(27, 27, 27, 0.473);
+}
 
+.weeklydiv{
+  display:flex;
+  padding:10px 15px;
+  justify-content:space-around;
+  height:70px;
+  align-items:center;
+  border:1px solid gray;
+  width:330px;
+}
+
+.weekoverview {
+  display:flex;
+  padding:10px;
+  justify-content:space-around;
+}
+
+.weeklyvalue {
+  border:none;
+  background: #262626;
+  box-shadow: inset 10px 10px 20px #1b1b1b, 
+              inset -10px -10px 20px #313131;
+  margin-left:10px;
+  text-transform: uppercase;
+ 
+}
+
+.formdiv {
+  display:flex;
+  justify-content:space-around;
+}
+
+
+.formdiv > textarea {
+  height:60px;
+  margin:-5px 0 0 8px;
+  width:220px;
+}
+
+.del{
+  border-radius:5px;
+  color:gray;
+}
+
+
+.weekday{
+  color:palegreen;
 }
 
 #track{
@@ -554,7 +601,7 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
 
   .list-wrapper {
       height:auto;
-      margin-left: -8px;
+      margin-left: -7px;
       width:90%;
       
   }
@@ -636,12 +683,70 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
     display:flex;
     flex-direction:column;
     align-items:flex-start;
-    width:80%;
+    width:100%;
     margin:10px auto;
   }
 
+  #taskli {
+    margin-left:5px;
+  }
   ::-webkit-scrollbar {
     width: 2px;
+  }
+
+  .weeklydiv{
+    display:flex;
+    padding:10px 15px;
+    justify-content:space-around;
+    height:60px;
+    align-items:center;
+    border:1px solid rgb(63, 63, 63);
+    width:99%;
+  }
+  
+  .weekoverview {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    padding:5px;
+    width:100%;
+    margin:0 auto;
+  }
+  
+  .weeklyvalue {
+    border:none;
+    background: #262626;
+    box-shadow: inset 10px 10px 20px #1b1b1b, 
+                inset -10px -10px 20px #313131;
+    margin-left:7px;
+    text-transform: uppercase;
+  }
+
+  .del{
+    width:30px;
+  }
+
+  #myweek {
+    margin: 30px auto 0px auto;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  }
+
+  #myweek > h2 {
+    display:none; 
+  }
+  
+  .formdiv {
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  
+  .formdiv > textarea {
+    height:50px;
+    margin:0px 0 0 8px;
+    width:220px;
   }
   
   /* Track */
