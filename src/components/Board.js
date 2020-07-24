@@ -3,7 +3,7 @@ import './Kanban.css';
 import List from './List2';
 import Drop from './Drop';
 
-export default class Board extends Component {
+class Board extends Component {
   constructor(props) {
     super(props);
     //if there's a localStorage to be had grab it otherwise set state
@@ -112,6 +112,17 @@ export default class Board extends Component {
   
   }
 
+  clearBoard(){
+   
+    localStorage.removeItem('lists');
+    document.location.reload();
+    return false;
+
+  }
+
+  
+  
+
 
 render() {
   const lists = this.state.lists.map((list, index) => (
@@ -134,8 +145,11 @@ render() {
       <ul className="lists">
         {lists}
       </ul>
+      <button id="clrboard" onClick={this.clearBoard}>CLEAR TASKS</button>
     </div>
    </div>
   );
   }
 }
+
+export default Board;

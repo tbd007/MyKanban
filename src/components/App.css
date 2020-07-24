@@ -533,6 +533,11 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
   padding:20px;
   margin:0 auto;
 }
+#clrboard{
+  color:gray;
+  border-radius:7px;
+  font-size:0.8rem;
+}
 
 
 /* MEDIA QUERIES*/
@@ -724,6 +729,12 @@ box-shadow: inset 10px 10px 20px #1b1b1b,
 
   .del{
     width:30px;
+  }
+
+  #clrboard {
+    text-align:center;
+    width:50%;
+    color:gray;
   }
 
   #myweek {
